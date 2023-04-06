@@ -10,7 +10,7 @@ import static com.codeborne.selenide.Selenide.$;
 public class CardPage {
     private SelenideElement heading = $("[data-test-id=dashboard]");
 
-    public void CardPage() {
+    public CardPage() {
         heading.shouldBe(visible);
     }
 }

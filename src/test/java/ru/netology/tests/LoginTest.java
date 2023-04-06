@@ -28,7 +28,7 @@ public class LoginTest {
     public void shouldLogIn() {
         var codePage = new LoginPage().validLogin(DataHelper.getValidInfo());
         var cardPage = codePage.validVerify(Database.getCode());
-        cardPage.CardPage();
+
     }
 
     @Test
